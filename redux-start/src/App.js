@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import SideBar from "./components/sidebar";
 import Cart from "./containers/cart";
 import ProductList from "./containers/product-list";
+import TodoList from "./containers/todo-list";
+import ShoppingList from "./containers/shopping-list";
 import Header from "./components/header/Header";
 
 // CSS
@@ -36,6 +38,8 @@ export default class App extends Component {
                 )}
               />
               <Route path="/cart" component={Cart} />
+              <Route path="/todo" component={TodoList} />
+              <Route path="/shopping" component={ShoppingList} />
             </div>
           )}
         </div>

@@ -7,6 +7,8 @@ export const SideBar = (props) => {
     <nav className="App-sidebar-nav">
       <NavLink to="/product" className="navigation">Product list</NavLink>
       <NavLink to="/cart" className="navigation">Cart</NavLink>
+      <NavLink to="/todo" className="navigation">Todo List</NavLink>
+      <NavLink to="/shopping" className="navigation">Shopping List</NavLink>
     </nav>
   </div>);
 };

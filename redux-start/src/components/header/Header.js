@@ -12,6 +12,9 @@ export class Header extends Component {
           <h1>My simple shop</h1>
         </Link>
         <Modal />
+        <Link to="/todo" className="App-title" style={{ marginRight: 15 }}>
+          <h2>Todo</h2>
+        </Link>
         <Link to="/cart" className="App-title">
           <h2>Cart {result.reduce((sum, current) => sum + current, 0)}</h2>
         </Link>
